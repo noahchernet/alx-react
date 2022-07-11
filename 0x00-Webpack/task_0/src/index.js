@@ -1,7 +1,7 @@
-var jquery = require("jquery");
+var $ = require("jquery");
 
-jquery(function () {
-  jquery("body").append("<p>Holberton Dashboard</p>");
-  jquery("body").append("<p>Dashboard data for the students</p>");
-  jquery("body").append("<p>Copyright - Holberton School</p>");
+$(function () {
+  $("body").append("<p>Holberton Dashboard</p>");
+  $("body").append("<p>Dashboard data for the students</p>");
+  $("body").append("<p>Copyright - Holberton School</p>");
 });
