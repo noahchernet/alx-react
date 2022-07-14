@@ -1,4 +1,9 @@
 div .Notifications {
-  border: 0.2rem solid red;
+  border: 0.1rem dashed red;
   padding: 1rem;
+  margin: 0.6rem;
+}
+
+[data-priority="urgent"] {
+  color: red;
 }

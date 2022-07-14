@@ -12,14 +12,24 @@ function App() {
       <body>
         <div className="App-body">
           <p>Login to access the full dashboard</p>
-          <form>
-            <label>Email</label>
-            <input type="email" />
+          <form style={{ display: "flex" }}>
+            <label htmlFor="email" className="flex-item">
+              Email
+            </label>
+            <input id="email" type="email" className="flex-item" />
 
-            <label>Password</label>
-            <input type="password" />
+            <label htmlFor="password" className="flex-item">
+              Password
+            </label>
+            <input id="password" type="password" className="flex-item" />
 
-            <button type="submit">Ok</button>
+            <button
+              type="submit"
+              className="flex-item"
+              style={{ marginLeft: "1.5rem" }}
+            >
+              Ok
+            </button>
           </form>
         </div>
       </body>
